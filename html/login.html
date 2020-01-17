@@ -1,87 +1,87 @@
 <HTML>
 
-        <HEAD>
-        
-            <TITLE>About Us Page of ShowOnWheels</TITLE>
-            <LINK type="text/css" rel="stylesheet" href="ExternalStylesheet\homestylesheet.css" />
-        
-        </HEAD>
-        
-        <BODY>
-        
-            <DIV id="mainDivContainer" style="position: relative; width: 100%; margin-top: 0px; margin-bottom: 0px;">
-        
-                <DIV style="width: 960px;  margin-top: 5px; margin-left: auto; margin-right: auto">
-        
-                            <DIV style="width: 960px; height:80px;">
-        
-                                    <IMG id="logo" src="images\Logo.png" width="500" height="100">
-        
-                                       
-                            <H5>For Enquiry<BR>
-        
-                                Call Us 9225648543
-        
-                            </H5>
-                 <IMG id="callus" src="images\callus.png">
-                    </DIV>
-        
-        
-                            <DIV style="width:500px; height:20px; float:left; text-align:center;">
-                            <SPAN class="auto-style1"><B>The Ultimate Way For Booking Movie Tickets</B></SPAN>
-        
-                                </DIV>
-        
-                         
-                    <DIV id="topnav" style="float:left;width: 960px; height: 20px; word-spacing: 5px; font-size: 90%; padding-left:60px; padding-top: 6px; white-space: nowrap; text-align:left; background-color: black;">
-                            <NAV>
-                    
-                     <A href="home.html">Home</A> |
-                                <A href="aboutus.html">About Us</A> |
-        
-                                <A href="contactus.html">Contact Us</A> |
-        
-                                <A href="upcomingmovies.html">Upcoming Movies</A> |
-        
-                          </NAV>
-           
-                   </DIV>
-        
-                    <DIV style="width: 960px; height: 600px; position: relative;margin:0px; padding: 29px; overflow: hidden; background-color: white;">
-                      <DIV style="width: 300px;  margin-top: 80px; margin-left: 200px; margin-right: auto">
-        
-                         <form>
-                 <pre>
-                          Name               <input type="text" name="name"><br>
-                         Password           <input type="password" name="password"><br>
-                                      <script>
-                                      if(typeof(Storage)!=="undefined")
-                                     {
-                                           localStorage.name="";
-                                           document.getElementById("name").innerHTML="name :" +localStorage.name;
-                                           document.getElementById("password").innerHTML="password :"+localStorage.password;
-                                     }
-                                     else
-                                     {
-                                      document.getElementById("str").innerHTML = "Sorry, your browser does not support web storage...";
-                                     }
-                                      </script>
-                                      
-                         <A href="home.html">sign up</A>
-                    </pre>
-                                     
-                    </DIV>
-        
-                 </DIV>
-        
+<HEAD>
+
+    <TITLE>About Us Page of ShowOnWheels</TITLE>
+    <LINK type="text/css" rel="stylesheet" href="ExternalStylesheet\homestylesheet.css" />
+
+   
+
+
+</HEAD>
+
+<BODY>
+
+    <DIV id="mainDivContainer" style="position: relative; width: 100%; margin-top: 0px; margin-bottom: 0px;">
+
+        <DIV style="width: 960px;  margin-top: 5px; margin-left: auto; margin-right: auto">
+
+            <DIV style="width: 960px; height:80px;">
+
+                <IMG id="logo" src="images\Logo.png" width="500" height="100">
+
+
+                <H5>For Enquiry<BR>
+
+                    Call Us 9225648543
+
+                </H5>
+                <IMG id="callus" src="images\callus.png">
             </DIV>
-        
-         
-        
-        </BODY>
-        
-        </HTML>
-        
-         
-        
-        
+
+
+            <DIV style="width:500px; height:20px; float:left; text-align:center;">
+                <SPAN class="auto-style1"><B>The Ultimate Way For Booking Movie Tickets</B></SPAN>
+
+            </DIV>
+
+
+            <DIV id="topnav"
+                style="float:left;width: 960px; height: 20px; word-spacing: 5px; font-size: 90%; padding-left:60px; padding-top: 6px; white-space: nowrap; text-align:left; background-color: black;">
+                <NAV>
+
+                    <A href="home.html">Home</A> |
+                    <A href="aboutus.html">About Us</A> |
+
+                    <A href="contactus.html">Contact Us</A> |
+
+                    <A href="upcomingmovies.html">Upcoming Movies</A> |
+
+                </NAV>
+
+            </DIV>
+
+            <DIV
+                style="width: 960px; height: 600px; position: relative;margin:0px; padding: 29px; overflow: hidden; background-color: white;">
+                <DIV style="width: 300px;  margin-top: 80px; margin-left: 200px; margin-right: auto">
+
+                    <form>
+                        <pre>
+                          Name               <input type="text" name="name"><br>
+                         Password           <input type="password" name="password"><br> 
+                                             <button onclick="myfunction()">login</button>
+                    </pre>
+                    <script>
+                        function myfunction() {
+                            var local_username=localStorage.getItem('username');
+                            var local_password=localStorage.getItem('password');
+                            var name = document.getElementById("name").value;
+                            var password = document.getElementById("password").value;
+                            
+                                alert("your name is:"+name+"your password is:"+password);
+                            }
+                
+                        </script>
+                
+                    </form>
+                                       </DIV>
+
+            </DIV>
+
+        </DIV>
+
+
+
+</BODY>
+
+</HTML>

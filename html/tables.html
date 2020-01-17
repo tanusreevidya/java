@@ -1,10 +1,24 @@
 <HTML>
     <HEAD>
         <TITLE>TABLES</TITLE>
+        <style>
+         table{
+             background-color: aqua;
+             border-collapse: collapse;
+             padding: 20px;
+         }
+         tr.a{
+             background-color: brown;
+         }
+         tr.alt td{
+             background-color: blueviolet
+         }
+        
+        </style>
     </HEAD>
     <BODY>
         <table border="1">
-            <tr>
+            <tr class="a">
                 <th>Course Number</th>
                 <th>Course Title</th>
                 <th>Semester Taken</th>
@@ -27,7 +41,7 @@
                 <td>intro to algorithms</td>
                 <td> fail 2014</td>
             </tr>
-            <tr>
+            <tr class="b">
                 <td colspan="3" align="center">listener</td>
             </tr>
             <tr>
