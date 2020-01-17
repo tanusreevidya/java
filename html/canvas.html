@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<HTML>
+<BODY>
+<CANVAS ID="myCanvas" width="600" height="300" style="border:1px solid
+black">
+</CANVAS>
+<SCRIPT>
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+ctx.strokeStyle="blue";
+ctx.rect(30,40,120,120);
+ctx.stroke();
+ctx.fillStyle="pink";
+ctx.fillRect(160,40,120,120);
+ctx.stroke();
+ctx.fillStyle="blue";
+ctx.shadowColor="pink";
+ctx.strokeRect(290,40,120,120);
+ctx.fillRect(420,40,120,120);
+ctx.clearRect(450,70,60,60)
+</SCRIPT>
+</BODY>
+</HTML> 
