@@ -1,0 +1,18 @@
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>EMAIL</th>
+        <th>PHONE</th>
+        <th>ACTIONS</th>
+    </tr>
+    <tr *ngFor="let user of usersTanu">
+        <td>{{user.id}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.phone}}</td>
+        <td><button class="btn btn-danger" (click)="deleteUser(user)">Delete</button>
+            <button class="btn btn-info" (click)="updateUser(user)">Update</button>
+        </td>
+    </tr>
+</table>
