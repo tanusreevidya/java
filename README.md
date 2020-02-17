@@ -162,6 +162,14 @@ Spring MVC
 Spring MVC
 Spring JDBC Template
 
-##Day 38 (14-02-2020)
+## Day 38 (14-02-2020)
 SpringSecurity
 Filter
+
+## Day 39 (15-02-2020)
+ Ecommerce website
+
+## Day 40 (17-02-2020)
+ SpringSecurity with database
+ Database queries
+ 
