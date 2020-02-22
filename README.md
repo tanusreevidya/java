@@ -188,3 +188,6 @@ spring boot sample project
 
 ## Day 44 (21-02-20)
 spring boot security
+
+## Day 45 (22-02-20)
+spring boot on project
