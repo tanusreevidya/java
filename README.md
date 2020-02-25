@@ -191,3 +191,9 @@ spring boot security
 
 ## Day 45 (22-02-20)
 spring boot on project
+
+## Day 46 (24-02-20)
+project
+
+## Day 47 (25-02-20)
+mail activation
