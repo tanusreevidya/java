@@ -197,3 +197,11 @@ project
 
 ## Day 47 (25-02-20)
 mail activation
+
+## Day 48 (26-02-20)
+project work
+kba
+
+## Day 49 (27-02-20)
+mail activation
+profiles
