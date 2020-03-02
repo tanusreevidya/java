@@ -208,3 +208,9 @@ profiles
 
 ## Day 50 (28-02-20)
 services
+
+## Day 51 (29-02-20)
+codesprint
+
+## Day 52 (02-03-20)
+microservices
