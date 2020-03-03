@@ -205,6 +205,7 @@ kba
 ## Day 49 (27-02-20)
 mail activation
 profiles
+spring actuator
 
 ## Day 50 (28-02-20)
 services
@@ -214,3 +215,9 @@ codesprint
 
 ## Day 52 (02-03-20)
 microservices
+
+## Day 53 (03-03-20)
+spring cloud-starter
+ribbon
+feign basics
+netflix eureka
