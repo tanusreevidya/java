@@ -221,3 +221,6 @@ spring cloud-starter
 ribbon
 feign basics
 netflix eureka
+
+## Day 54 (04-03-20)
+Spring Boot Testing
