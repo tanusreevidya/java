@@ -224,3 +224,7 @@ netflix eureka
 
 ## Day 54 (04-03-20)
 Spring Boot Testing
+
+## Day 55 (05-03-20)
+Juul Server
+Project Work
