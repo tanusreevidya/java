@@ -228,3 +228,8 @@ Spring Boot Testing
 ## Day 55 (05-03-20)
 Juul Server
 Project Work
+
+## Day 56 (06-03-20)
+continous integration
+continous delivery
+docker
