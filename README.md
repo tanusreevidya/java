@@ -233,3 +233,11 @@ Project Work
 continous integration
 continous delivery
 docker
+
+## Day 57 (07-03-20)
+import excel file
+project
+login authentication
+
+## Day 59 (10-03-20)
+jenikins
