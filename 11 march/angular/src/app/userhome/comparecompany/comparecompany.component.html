@@ -1,0 +1,61 @@
+<app-usernav></app-usernav>
+
+                <div id="body" class="container mt-5">
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-6">
+                      <form [formGroup]='comparecompany' class="form-group border p-5 border-curved mt-5" >
+                        <p class="h1 text-muted text-uppercase text-center mb-4">Compare Company</p>
+                     
+                         <label for="company"> Select Company:</label>
+                        <!-- <select class="form-control " id="company" formControlName="company">
+                            <option>CTS </option>
+                            <option>TCS</option>
+                            <option>Infosys</option>
+                          </select>  -->
+                           <!-- <mat-form-field >
+                            <input type="text" placeholder="Pick a company"  aria-label="Number" matInput class="formControl"  
+                            formControlName="company"   [matAutocomplete]="auto">
+                            <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+                              <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+                                {{option}}
+                              </mat-option>
+                            </mat-autocomplete>
+                          </mat-form-field>  -->
+
+                          <mat-form-field>
+                            <input type="text" matInput placeholder="Pick a company" formControlName="company" required [matAutocomplete]="autoGroup">
+                              <mat-autocomplete #autoGroup="matAutocomplete">
+                                <mat-optgroup *ngFor="let group of Options | async" [label]="group.letter">
+                                  <mat-option *ngFor="let name of group.names" [value]="name">
+                                    {{options}}
+                                  </mat-option>
+                              </mat-optgroup>
+                            </mat-autocomplete>
+                          </mat-form-field>
+                       
+
+
+                        <!-- <input type="text" class="form-control" placeholder="Name of Sector" formContrlName="sector" id="sector"> -->
+                        <label for="stockExchange"> Select Stock Exchange:</label>
+                        <select class="form-control " id="stockExchange" formControlName="stockExchange">
+                            <option>BSE </option>
+                            <option>NSE</option>
+                          </select>
+                        
+                        <label for="companyname">Company Name:</label>
+                        <input type="text" class="form-control" placeholder="Name of Company" formControlName="companyname" id="companyname">
+                       
+                        <label for="datefrom">From Date-Time:</label><br>
+                        <input class="form-control" type="datetime-local" name="datefrom" id="datefrom" formControlName="datefrom">
+                         
+                        <label for="dateto">TO Date-Time:</label><br>
+                        <input class="form-control" type="datetime-local" name="dateto" id="dateto" formControlName="dateto">
+<!-- 
+                        <p> <span class="glyphicon glyphicon-plus-sign"></span></p>   -->
+            
+                        <button class="btn btn-success form-control" (click)="compareTheCompany()" [disabled]="!comparecompany.valid">Generate</button>
+                      </form>
+                    </div>
+                </div>
+                </div>
