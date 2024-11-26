@@ -32,7 +32,7 @@ public class RegisterServiceImpl implements RegisterService {
 		String mail;
 		try {
 			SimpleMailMessage sm= new SimpleMailMessage();
-			sm.setFrom("tanusreevidya13@gmail.com");
+			sm.setFrom("***@gmail.com");
 			sm.setTo(user1.getEmail());
 			mail=user1.getEmail();
 			if(rr.findByEmail(mail)!= null) {
